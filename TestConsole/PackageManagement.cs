@@ -32,7 +32,7 @@ namespace TestConsole
         public void UpdatePackages()
         {
             var repo = PackageRepositoryFactory.Default
-                .CreateRepository("http://nuget.mike.at.local/nuget");
+                .CreateRepository("http://nuget.poc.local/nuget");
             
             if (!Directory.Exists(PackagePath))
             {
